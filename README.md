@@ -49,15 +49,17 @@ same directory as this file.
 
 **Environment and script execution**
 
-1. Once the experiment data zip downloaded, paste the following files in 'uci-har-dataset' folder:
+1. Clone the repository *(https://github.com/marcovgurrola/uci-har-dataset.git)* using Git,
+to a folder named 'uci-har-dataset'.
+2. From the experiment data zip files, paste the following files in 'uci-har-dataset' folder:
 	- *features.txt*
 	- *activity_labels.txt*
 	- *train/X_train.txt*
 	- *train/y_train.txt*
 	- *test/X_test.txt*
 	- *test/y_test.txt*
-	- *train/subject_train.txt*.
-2. Clone the repository *(https://github.com/marcovgurrola/uci-har-dataset.git)* using Git.
+	- *train/subject_train.txt*
+
 3. In RStudio, set the Working Directory to 'uci-har-dataset'.
 4. Open run_analysis.R from RStudio.
 5. From the RStudio Menu, select Code, and click on Source File and select run_analysis.R
